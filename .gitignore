@@ -1,4 +1,7 @@
-# Byte-compiled / optimized / DLL files
+## BEGIN my gitignore stuff
+out/
+## END my gitignore stuff. everything below me is from a template
+#Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
