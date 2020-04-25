@@ -74,7 +74,8 @@ def download_persist():
     current_ep = get_last_ep() + 1
     ep_portion = 0
     dprint(current_ep)
-    ep_name = "atp" + str(current_ep) + "-" + str(ep_portion) + ".mp3"
+    ep_name = DIRECTORY + "atp" + str(current_ep) + "-" + str(ep_portion) + \
+        ".mp3"
     command = "curl -o " + ep_name + " marco.org:8001/listen"
     #while(datetime.datetime.now() < cutoff_time):
     os.system(command)
