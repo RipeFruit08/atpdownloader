@@ -1,6 +1,7 @@
 ## BEGIN my gitignore stuff
 out/
 failed/
+test/
 ## END my gitignore stuff. everything below me is from a template
 #Byte-compiled / optimized / DLL files
 __pycache__/
